@@ -755,18 +755,18 @@ namespace MS43_Recalc
             {
                 IP_TIB_recalculated.Add(new DataObject()
                 {
-                    A = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].A) * Convert.ToDecimal(Afr_from_log[i].A) / Convert.ToDecimal(target_afr[i].A), 2)).Replace(',', '.'),
-                    B = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].B) * Convert.ToDecimal(Afr_from_log[i].B) / Convert.ToDecimal(target_afr[i].B), 2)).Replace(',', '.'),
-                    C = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].C) * Convert.ToDecimal(Afr_from_log[i].C) / Convert.ToDecimal(target_afr[i].C), 2)).Replace(',', '.'),
-                    D = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].D) * Convert.ToDecimal(Afr_from_log[i].D) / Convert.ToDecimal(target_afr[i].D), 2)).Replace(',', '.'),
-                    E = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].E) * Convert.ToDecimal(Afr_from_log[i].E) / Convert.ToDecimal(target_afr[i].E), 2)).Replace(',', '.'),
-                    F = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].F) * Convert.ToDecimal(Afr_from_log[i].F) / Convert.ToDecimal(target_afr[i].F), 2)).Replace(',', '.'),
-                    G = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].G) * Convert.ToDecimal(Afr_from_log[i].G) / Convert.ToDecimal(target_afr[i].G), 2)).Replace(',', '.'),
-                    H = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].H) * Convert.ToDecimal(Afr_from_log[i].H) / Convert.ToDecimal(target_afr[i].H), 2)).Replace(',', '.'),
-                    I = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].I) * Convert.ToDecimal(Afr_from_log[i].I) / Convert.ToDecimal(target_afr[i].I), 2)).Replace(',', '.'),
-                    Y = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].Y) * Convert.ToDecimal(Afr_from_log[i].Y) / Convert.ToDecimal(target_afr[i].Y), 2)).Replace(',', '.'),
-                    K = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].K) * Convert.ToDecimal(Afr_from_log[i].K) / Convert.ToDecimal(target_afr[i].K), 2)).Replace(',', '.'),
-                    L = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].L) * Convert.ToDecimal(Afr_from_log[i].L) / Convert.ToDecimal(target_afr[i].L), 2)).Replace(',', '.')
+                    A = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].A) * Convert.ToDecimal(Afr_from_log[i].A) / Convert.ToDecimal(target_afr[i].A), 3)).Replace(',', '.'),
+                    B = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].B) * Convert.ToDecimal(Afr_from_log[i].B) / Convert.ToDecimal(target_afr[i].B), 3)).Replace(',', '.'),
+                    C = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].C) * Convert.ToDecimal(Afr_from_log[i].C) / Convert.ToDecimal(target_afr[i].C), 3)).Replace(',', '.'),
+                    D = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].D) * Convert.ToDecimal(Afr_from_log[i].D) / Convert.ToDecimal(target_afr[i].D), 3)).Replace(',', '.'),
+                    E = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].E) * Convert.ToDecimal(Afr_from_log[i].E) / Convert.ToDecimal(target_afr[i].E), 3)).Replace(',', '.'),
+                    F = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].F) * Convert.ToDecimal(Afr_from_log[i].F) / Convert.ToDecimal(target_afr[i].F), 3)).Replace(',', '.'),
+                    G = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].G) * Convert.ToDecimal(Afr_from_log[i].G) / Convert.ToDecimal(target_afr[i].G), 3)).Replace(',', '.'),
+                    H = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].H) * Convert.ToDecimal(Afr_from_log[i].H) / Convert.ToDecimal(target_afr[i].H), 3)).Replace(',', '.'),
+                    I = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].I) * Convert.ToDecimal(Afr_from_log[i].I) / Convert.ToDecimal(target_afr[i].I), 3)).Replace(',', '.'),
+                    Y = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].Y) * Convert.ToDecimal(Afr_from_log[i].Y) / Convert.ToDecimal(target_afr[i].Y), 3)).Replace(',', '.'),
+                    K = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].K) * Convert.ToDecimal(Afr_from_log[i].K) / Convert.ToDecimal(target_afr[i].K), 3)).Replace(',', '.'),
+                    L = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TIB_current[i].L) * Convert.ToDecimal(Afr_from_log[i].L) / Convert.ToDecimal(target_afr[i].L), 3)).Replace(',', '.')
 
                 });
             }
@@ -774,18 +774,18 @@ namespace MS43_Recalc
             {
                 IP_TI_tco_2_PL_IVVT_x_recalculated.Add(new DataObject()
                 {
-                    A = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].A) * Convert.ToDecimal(Afr_from_log[i].A) / Convert.ToDecimal(target_afr[i].A), 2)).Replace(',', '.'),
-                    B = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].B) * Convert.ToDecimal(Afr_from_log[i].B) / Convert.ToDecimal(target_afr[i].B), 2)).Replace(',', '.'),
-                    C = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].C) * Convert.ToDecimal(Afr_from_log[i].C) / Convert.ToDecimal(target_afr[i].C), 2)).Replace(',', '.'),
-                    D = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].D) * Convert.ToDecimal(Afr_from_log[i].D) / Convert.ToDecimal(target_afr[i].D), 2)).Replace(',', '.'),
-                    E = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].E) * Convert.ToDecimal(Afr_from_log[i].E) / Convert.ToDecimal(target_afr[i].E), 2)).Replace(',', '.'),
-                    F = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].F) * Convert.ToDecimal(Afr_from_log[i].F) / Convert.ToDecimal(target_afr[i].F), 2)).Replace(',', '.'),
+                    A = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].A) * Convert.ToDecimal(Afr_from_log[i].A) / Convert.ToDecimal(target_afr[i].A), 3)).Replace(',', '.'),
+                    B = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].B) * Convert.ToDecimal(Afr_from_log[i].B) / Convert.ToDecimal(target_afr[i].B), 3)).Replace(',', '.'),
+                    C = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].C) * Convert.ToDecimal(Afr_from_log[i].C) / Convert.ToDecimal(target_afr[i].C), 3)).Replace(',', '.'),
+                    D = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].D) * Convert.ToDecimal(Afr_from_log[i].D) / Convert.ToDecimal(target_afr[i].D), 3)).Replace(',', '.'),
+                    E = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].E) * Convert.ToDecimal(Afr_from_log[i].E) / Convert.ToDecimal(target_afr[i].E), 3)).Replace(',', '.'),
+                    F = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].F) * Convert.ToDecimal(Afr_from_log[i].F) / Convert.ToDecimal(target_afr[i].F), 3)).Replace(',', '.'),
                     G = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].G) * Convert.ToDecimal(Afr_from_log[i].G) / Convert.ToDecimal(target_afr[i].G), 2)).Replace(',', '.'),
-                    H = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].H) * Convert.ToDecimal(Afr_from_log[i].H) / Convert.ToDecimal(target_afr[i].H), 2)).Replace(',', '.'),
-                    I = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].I) * Convert.ToDecimal(Afr_from_log[i].I) / Convert.ToDecimal(target_afr[i].I), 2)).Replace(',', '.'),
-                    Y = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].Y) * Convert.ToDecimal(Afr_from_log[i].Y) / Convert.ToDecimal(target_afr[i].Y), 2)).Replace(',', '.'),
-                    K = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].K) * Convert.ToDecimal(Afr_from_log[i].K) / Convert.ToDecimal(target_afr[i].K), 2)).Replace(',', '.'),
-                    L = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].L) * Convert.ToDecimal(Afr_from_log[i].L) / Convert.ToDecimal(target_afr[i].L), 2)).Replace(',', '.')
+                    H = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].H) * Convert.ToDecimal(Afr_from_log[i].H) / Convert.ToDecimal(target_afr[i].H), 3)).Replace(',', '.'),
+                    I = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].I) * Convert.ToDecimal(Afr_from_log[i].I) / Convert.ToDecimal(target_afr[i].I), 3)).Replace(',', '.'),
+                    Y = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].Y) * Convert.ToDecimal(Afr_from_log[i].Y) / Convert.ToDecimal(target_afr[i].Y), 3)).Replace(',', '.'),
+                    K = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].K) * Convert.ToDecimal(Afr_from_log[i].K) / Convert.ToDecimal(target_afr[i].K), 3)).Replace(',', '.'),
+                    L = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_2_PL_IVVT_x_current[i].L) * Convert.ToDecimal(Afr_from_log[i].L) / Convert.ToDecimal(target_afr[i].L), 3)).Replace(',', '.')
 
                 });
             }
@@ -793,18 +793,18 @@ namespace MS43_Recalc
             {
                 IP_TI_tco_1_PL_IVVT_x_recalculated.Add(new DataObject()
                 {
-                    A = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].A) * Convert.ToDecimal(Afr_from_log[i].A) / Convert.ToDecimal(target_afr[i].A), 2)).Replace(',', '.'),
-                    B = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].B) * Convert.ToDecimal(Afr_from_log[i].B) / Convert.ToDecimal(target_afr[i].B), 2)).Replace(',', '.'),
-                    C = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].C) * Convert.ToDecimal(Afr_from_log[i].C) / Convert.ToDecimal(target_afr[i].C), 2)).Replace(',', '.'),
-                    D = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].D) * Convert.ToDecimal(Afr_from_log[i].D) / Convert.ToDecimal(target_afr[i].D), 2)).Replace(',', '.'),
-                    E = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].E) * Convert.ToDecimal(Afr_from_log[i].E) / Convert.ToDecimal(target_afr[i].E), 2)).Replace(',', '.'),
-                    F = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].F) * Convert.ToDecimal(Afr_from_log[i].F) / Convert.ToDecimal(target_afr[i].F), 2)).Replace(',', '.'),
-                    G = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].G) * Convert.ToDecimal(Afr_from_log[i].G) / Convert.ToDecimal(target_afr[i].G), 2)).Replace(',', '.'),
-                    H = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].H) * Convert.ToDecimal(Afr_from_log[i].H) / Convert.ToDecimal(target_afr[i].H), 2)).Replace(',', '.'),
-                    I = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].I) * Convert.ToDecimal(Afr_from_log[i].I) / Convert.ToDecimal(target_afr[i].I), 2)).Replace(',', '.'),
-                    Y = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].Y) * Convert.ToDecimal(Afr_from_log[i].Y) / Convert.ToDecimal(target_afr[i].Y), 2)).Replace(',', '.'),
-                    K = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].K) * Convert.ToDecimal(Afr_from_log[i].K) / Convert.ToDecimal(target_afr[i].K), 2)).Replace(',', '.'),
-                    L = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].L) * Convert.ToDecimal(Afr_from_log[i].L) / Convert.ToDecimal(target_afr[i].L), 2)).Replace(',', '.')
+                    A = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].A) * Convert.ToDecimal(Afr_from_log[i].A) / Convert.ToDecimal(target_afr[i].A), 3)).Replace(',', '.'),
+                    B = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].B) * Convert.ToDecimal(Afr_from_log[i].B) / Convert.ToDecimal(target_afr[i].B), 3)).Replace(',', '.'),
+                    C = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].C) * Convert.ToDecimal(Afr_from_log[i].C) / Convert.ToDecimal(target_afr[i].C), 3)).Replace(',', '.'),
+                    D = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].D) * Convert.ToDecimal(Afr_from_log[i].D) / Convert.ToDecimal(target_afr[i].D), 3)).Replace(',', '.'),
+                    E = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].E) * Convert.ToDecimal(Afr_from_log[i].E) / Convert.ToDecimal(target_afr[i].E), 3)).Replace(',', '.'),
+                    F = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].F) * Convert.ToDecimal(Afr_from_log[i].F) / Convert.ToDecimal(target_afr[i].F), 3)).Replace(',', '.'),
+                    G = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].G) * Convert.ToDecimal(Afr_from_log[i].G) / Convert.ToDecimal(target_afr[i].G), 3)).Replace(',', '.'),
+                    H = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].H) * Convert.ToDecimal(Afr_from_log[i].H) / Convert.ToDecimal(target_afr[i].H), 3)).Replace(',', '.'),
+                    I = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].I) * Convert.ToDecimal(Afr_from_log[i].I) / Convert.ToDecimal(target_afr[i].I), 3)).Replace(',', '.'),
+                    Y = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].Y) * Convert.ToDecimal(Afr_from_log[i].Y) / Convert.ToDecimal(target_afr[i].Y), 3)).Replace(',', '.'),
+                    K = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].K) * Convert.ToDecimal(Afr_from_log[i].K) / Convert.ToDecimal(target_afr[i].K), 3)).Replace(',', '.'),
+                    L = Convert.ToString(Math.Round(Convert.ToDecimal(IP_TI_tco_1_PL_IVVT_x_current[i].L) * Convert.ToDecimal(Afr_from_log[i].L) / Convert.ToDecimal(target_afr[i].L), 3)).Replace(',', '.')
 
                 });
             }

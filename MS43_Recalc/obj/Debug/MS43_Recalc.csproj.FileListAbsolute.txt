@@ -1,0 +1,13 @@
+C:\ms43_recalc\MS43_Recalc\bin\Debug\MS43_Recalc.exe.config
+C:\ms43_recalc\MS43_Recalc\bin\Debug\MS43_Recalc.exe
+C:\ms43_recalc\MS43_Recalc\bin\Debug\MS43_Recalc.pdb
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc.csprojResolveAssemblyReference.cache
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MainWindow.baml
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MainWindow.g.cs
+C:\ms43_recalc\MS43_Recalc\obj\Debug\App.g.cs
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc_MarkupCompile.cache
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc.g.resources
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc.Properties.Resources.resources
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc.csproj.GenerateResource.Cache
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc.exe
+C:\ms43_recalc\MS43_Recalc\obj\Debug\MS43_Recalc.pdb
